@@ -153,19 +153,3 @@ class Magazine:
 
     def __repr__(self):
         return f'<Magazine: name = {self.name}, category = {self.category}>'
-class Magazine:
-    def __init__(self, name, category):
-        self.name = name
-        self.category = category
-
-    def articles(self):
-        pass
-
-    def contributors(self):
-        pass
-
-    def article_titles(self):
-        pass
-
-    def contributing_authors(self):
-        pass
